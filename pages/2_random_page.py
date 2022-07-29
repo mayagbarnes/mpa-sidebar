@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 
-st.set_page_config(page_title='Random')
+st.set_page_config(page_title='Random', initial_sidebar_state='expanded')
 
 
 # Build a bunch of data to display

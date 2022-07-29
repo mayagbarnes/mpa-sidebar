@@ -5,7 +5,7 @@ from PIL import Image
 from datetime import datetime
 from datetime import date
 
-st.set_page_config(page_title='Home', initial_sidebar_state='collapsed')
+st.set_page_config(page_title='Home', initial_sidebar_state='expanded')
 
 st.sidebar.header('Sidebar ⚡')
 w1 = st.date_input("Label 1", date(1970, 1, 1))
